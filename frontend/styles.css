@@ -434,6 +434,26 @@ body {
     display: block;
 }
 
+.datetime-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1.2;
+    min-width: 160px;
+}
+@media (min-width: 601px) {
+    .datetime-group {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .datetime-group .input-label {
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+        white-space: nowrap;
+    }
+}
+
 @media (max-width: 900px) {
     .planner-main {
         flex-direction: column;

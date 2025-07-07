@@ -424,6 +424,16 @@ body {
     color: #22223b;
 }
 
+.input-label {
+    font-family: 'Pacifico', cursive, 'Segoe UI', Arial, sans-serif;
+    font-size: 1.13rem;
+    color: #22223b;
+    margin-bottom: 0.2rem;
+    margin-left: 2px;
+    font-weight: 500;
+    display: block;
+}
+
 @media (max-width: 900px) {
     .planner-main {
         flex-direction: column;

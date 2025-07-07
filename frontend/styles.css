@@ -418,6 +418,12 @@ body {
     }
 }
 
+#todo-datetime {
+    font-family: 'Pacifico', cursive, 'Segoe UI', Arial, sans-serif;
+    font-size: 1.13rem;
+    color: #22223b;
+}
+
 @media (max-width: 900px) {
     .planner-main {
         flex-direction: column;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="planner-bg">
+        <div class="planner-container">
+            <div class="planner-header">
+                <div class="planner-title">To Do list</div>
+                <div class="planner-decor">
+                    <span class="decor-flower">✿</span>
+                    <span class="decor-flower">✿</span>
+                    <span class="decor-flower">✿</span>
+                </div>
+            </div>
+            <div class="planner-main">
+                <div class="todo-block pastel-pink">
+                    <div class="block-title">To Do list</div>
+                    <form id="todo-form">
+                        <input type="text" id="todo-input" placeholder="Add a new todo..." required />
+                        <input type="datetime-local" id="todo-datetime" required />
+                        <button type="submit">Add</button>
+                    </form>
+                    <ul id="todo-list"></ul>
+                </div>
+                <div class="side-blocks">
+                    <div class="notes-block pastel-orange">
+                        <div class="block-title">Notes <button class="clear-btn" id="clear-notes" title="Clear notes">🗑️</button></div>
+                        <textarea class="notes-area" placeholder="Write your notes..."></textarea>
+                    </div>
+                    <div class="focus-block pastel-blue">
+                        <div class="block-title">Focus <button class="clear-btn" id="clear-focus" title="Clear focus">🗑️</button></div>
+                        <textarea class="focus-area" placeholder="Today's focus..."></textarea>
+                    </div>
+                    <div class="remember-block pastel-green">
+                        <div class="block-title">Remember <span class="decor-bulb">💡</span> <button class="clear-btn" id="clear-remember" title="Clear remember">🗑️</button></div>
+                        <textarea class="remember-area" placeholder="Don't forget..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

@@ -480,6 +480,29 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    #todo-form {
+        flex-direction: column;
+        gap: 0.7rem;
+        align-items: stretch;
+    }
+    #todo-form input[type="text"],
+    #todo-form input[type="datetime-local"],
+    #todo-form button[type="submit"] {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+        padding: 0.8rem 1rem;
+        margin: 0;
+    }
+    #todo-form button[type="submit"] {
+        height: 48px;
+        font-size: 1.1rem;
+        padding: 0.8rem 0;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     background: #f1f5f9;
